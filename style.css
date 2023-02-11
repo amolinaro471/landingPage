@@ -3,21 +3,27 @@
     color: white; 
     display: flex;
     justify-content: space-between;
+    padding: 10px;
     
-}
-
-p {
-    display: flex;
-    justify-content: center;
 }
 
 .footer {
     justify-content: center;
 }
 
+.one, .two, .three, .four {
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+}
+
+
 .one {
     background: rgb(13, 37, 51); 
     color: white;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .two {
@@ -32,15 +38,9 @@ p {
     background: white;
 }
 
-div {
-    border: 2px solid red;
-    padding: 10px;
-}
-
 body {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background: black;
-    
 }
