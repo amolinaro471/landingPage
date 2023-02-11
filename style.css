@@ -1,11 +1,11 @@
+/*
+
 .header, .footer {
     background: rgb(13, 37, 51);
     color: white; 
     display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    
 }
+
 
 .footer {
     justify-content: center;
@@ -13,7 +13,6 @@
 
 .one, .two, .three, .four {
     display: flex;
-    
     flex-direction: column;
     align-items: center;
 }
@@ -23,7 +22,7 @@
     background: rgb(13, 37, 51); 
     color: white;
     flex-direction: row;
-    justify-content: center;
+    justify-content: center; 
 }
 
 .two {
@@ -43,4 +42,65 @@ body {
     flex-direction: column;
     justify-content: center;
     background: black;
+}
+
+div, p {
+    border: 2px solid red;
+}
+
+*/
+body {
+    background-color: black;
+}
+
+.header, .footer, .one {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    height: auto;  
+}
+
+.header, .one, .four {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.Links a{
+    padding: 12px;
+}
+
+
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pic-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    justify-content: center;
+}
+
+.two, .four {
+    background-color: #f9faf8;
+}
+
+.three {
+    background-color: #e5e7eb;
+}
+
+div {
+    border: 2px solid grey;
 }
