@@ -1,0 +1,46 @@
+.header, .footer {
+    background: rgb(13, 37, 51);
+    color: white; 
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    justify-content: center;
+}
+
+.one {
+    background: rgb(13, 37, 51); 
+    color: white;
+}
+
+.two {
+    background: white;
+}
+
+.three {
+    background: grey;
+}
+
+.four {
+    background: white;
+}
+
+div {
+    border: 2px solid red;
+    padding: 10px;
+}
+
+body {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+    background: black;
+    
+}
